@@ -14,7 +14,7 @@ export default function Home() {
     }, []);
 
     return (
-        <main className="container mx-auto px-5 md:px-12 pt-24">
+        <main className="container mx-auto px-5 md:px-12 pt-24 text-main">
             <HeroSection />
             <DescSection />
             <AboutSection />

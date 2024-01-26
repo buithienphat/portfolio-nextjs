@@ -21,7 +21,9 @@ const ContactSection = () => {
             className="md:grid md:grid-cols-2 gap-5 py-16 lg:py-24"
         >
             <div>
-                <h2 className="text-4xl font-bold mb-4">Let's Connect Me</h2>
+                <h2 className="text-white text-4xl font-bold mb-4">
+                    Let's Connect Me
+                </h2>
                 <p className="text-main mt-3 mb-4 md:max-w-[500px]">
                     I'm currently looking for new opportunities, my inbox is
                     always open. Whether you have a question or just want to say

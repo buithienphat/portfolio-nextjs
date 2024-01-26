@@ -9,7 +9,7 @@ const ProjectSection = async () => {
 
     return (
         <section id="project" className="py-16 px-4 text-center">
-            <h2 className="text-4xl font-bold mb-4">My Projects</h2>
+            <h2 className="text-white text-4xl font-bold mb-4">My Projects</h2>
             <div></div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
                 {data.map((data) => {

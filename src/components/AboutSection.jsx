@@ -20,7 +20,9 @@ const AboutSection = () => {
             </div>
             <div className="max-md:mt-5">
                 <div>
-                    <h2 className="text-4xl font-bold mb-4">About Me</h2>
+                    <h2 className="text-white text-4xl font-bold mb-4">
+                        About Me
+                    </h2>
                     <p>
                         I am a full stack web developer with a passion for
                         creating interactive and responsive web applications. I

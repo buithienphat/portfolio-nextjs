@@ -9,7 +9,7 @@ const HeroSection = () => {
             className="grid grid-cols-1 md:grid-cols-12 items-center justify-between py-14"
         >
             <div className="col-span-8 text-center sm:text-left">
-                <h1 className="text-4xl mb-4 font-extrabold lg:text-8xl">
+                <h1 className="text-white text-4xl mb-4 font-extrabold lg:text-8xl">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-200 to-orange-400">
                         Hello, I'm
                     </span>
@@ -20,7 +20,7 @@ const HeroSection = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quisquam, voluptuous.
                 </p>
-                <div>
+                <div className="text-white font-bold">
                     <Link href={"#contact"}>
                         <button className="px-6 py-3 rounded-full w-[100%] bg-gradient-to-br from-orange-200 to-orange-400 md:w-fit mr-4 hover:from-orange-300 hover:to-orange-500">
                             Hire Me
